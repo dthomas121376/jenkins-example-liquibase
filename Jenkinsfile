@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    MYSQL_CREDS=credentials('mysql-credentials')
+    MYSQL_CREDS=credentials('mariadbsecrets')
   }
   stages {
     stage('Status') {
