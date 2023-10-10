@@ -13,3 +13,6 @@ insert into test1 (id, name) values (2, 'Damaris');
 
 --changeset dthomas:3
 insert into test1 (id, name) values (3, 'Davion');
+
+--changeset dthomas:4
+insert into test1 (id, name) values (4, 'Olive');
